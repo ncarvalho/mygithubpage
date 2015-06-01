@@ -2,6 +2,7 @@ body
 	font-family: "Gandhi Sans", sans-serif
 	font-size: 12pt
 	font-weight: 300
+	color: #212121
 h1
 	font-family: "Adobe Arabic", serif
 	font-size: 38pt
@@ -10,7 +11,15 @@ h2
 	font-size: 16pt
 	font-weight: 300
 	margin: 0
-
+p 
+	font-size: 10pt
+	vertical-align: middle
+a 
+	color: #23AB70
+	&:hover
+		text-decoration: none
+		color: #197D52
+		transition: color .2s
 .clean-list
 	list-style-type: none
 	padding: 10px 2px
@@ -24,7 +33,8 @@ aside#details
 div#content
 	position: relative
 	display: block
-	padding: 10px
+	.row
+		margin: 40px 0
 	a
 		width: 80%
 		margin: 0 auto
@@ -37,7 +47,19 @@ div#content
 		a
 			width: 50%
 			float: left
+			padding: 10px
 	video
 		width: 80%
 		margin: 0 auto
 		display: block
+	p 
+		padding: 20px 10px
+		margin-top: 10px
+		border-left: 2px solid #212121
+footer
+	font-size: 8pt
+	color: #999
+
+@media (max-width: 767px)
+	aside#details, div#content
+		position: initial
