@@ -1,13 +1,14 @@
 body
-	font-family: "Gandhi Sans", sans-serif
+	font-family: 'Raleway', sans-serif
 	font-size: 12pt
 	font-weight: 300
 	color: #212121
 h1
-	font-family: "Adobe Arabic", serif
 	font-size: 38pt
 	margin: 0 0 10px 0
 	line-height: 40px
+	small 
+		color: #000000
 h2 
 	font-size: 16pt
 	font-weight: 300
@@ -25,41 +26,78 @@ a
 	list-style-type: none
 	padding: 10px 2px
 
-aside#details
+div#details
 	border-radius: 2px
 	padding: 5px
-	margin: 20px 0
 	display: block
-	position: fixed
+	margin-top: 100px
+	margin-bottom: 100px
+	@media(max-width: 991px)
+		margin-top: 50px
+		margin-bottom: 50px
+	img
+		float: left
+		max-width: 200px
+		width: 100%
+	#title
+		margin: 20px 15px 15px 0
+	ul#extras
+		font-size: 12pt
+		margin: 10px 0
+		float: left
+		width: 215px
+	ul.social-icons
+		overflow: auto
+		li 
+			display: inline-block
+			padding: 0 5px
+			float: left
+    	
 div#content
-	position: relative
+	background-color: #4c1026
+	color: #BBBDC0
 	display: block
-	.row
-		margin: 40px 0
+	width: 100%
+	overflow: hidden
+	.item
+		margin-top: 60px
+		margin-bottom: 60px
+		padding: 0
 	a
-		width: 80%
-		margin: 0 auto
+		width: 100%
 		display: block
 		img 
 			width: 100%
 	#swimsuits
-		width: 80%
+		width: 100%
 		margin: 0 auto
 		a
 			width: 50%
 			float: left
 			padding: 10px
 	video
-		width: 80%
-		margin: 0 auto
+		width: 100%
 		display: block
 	p 
 		padding: 20px 10px
 		margin-top: 10px
-		border-left: 2px solid #212121
+		border-left: 2px solid #8AD6F6
+		strong
+			color: #ffffff
+span.glyphicon
+	margin: 10px 0
+	color: #ffffff
+	font-size: 10pt
+	background-color: rgba(117, 117, 117, .4)
+	padding: 10px
+
 footer
 	font-size: 8pt
 	color: #999
+	padding: 20px 0
+	text-align: center
+	p 
+		margin: 0
 
 @media (max-width: 767px)
 	aside#details, div#content
