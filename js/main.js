@@ -25,7 +25,7 @@ $(document).ready(function(){
 
 $(function() {
    $('#show-resume').click(function() {
-       $('#resume-text').show();
+       $('#resume-text').toggle();
        return false;
    });        
 });
