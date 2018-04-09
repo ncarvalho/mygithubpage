@@ -24,8 +24,8 @@ $(document).ready(function(){
 });
 
 $(function() {
-   $('#show-resume').click(function() {
-       $('#resume-text').toggle();
-       return false;
-   });        
+   $(".fancybox").fancybox({
+      openEffect  : 'none',
+      closeEffect : 'none'
+    });    
 });

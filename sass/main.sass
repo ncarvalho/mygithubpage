@@ -19,13 +19,13 @@ h3
 	font-size: 14pt
 h4
 	font-size: 12pt
-	color: #89d6f5
+	color: #7cadc1
 	margin-top: 15px
 p 
 	font-size: 10pt
 	vertical-align: middle
 a 
-	color: #48829A
+	color: #587e8e
 	&:hover
 		text-decoration: none
 		color: #295D73
@@ -33,10 +33,16 @@ a
 		cursor: pointer
 	&:focus
 		color: #295D73
+.m-b
+	margin-bottom: 30px
 .clean-list
 	list-style-type: none
 	padding: 5px 0
-
+.sub-list 
+	color: #ffffff
+	padding-left: 20px
+	padding-top: 10px
+	font-size: 12px
 div#details
 	width: 25%
 	float: left
@@ -51,6 +57,9 @@ div#details
 	ul#extras
 		font-size: 12pt
 		float: left
+		a.active 
+			font-weight: bold
+			color: #295D73
 	ul.social-icons
 		overflow: auto
 		li 
@@ -77,7 +86,6 @@ div#content
 		padding: 0
 	#resume-text
 		font-size: 11pt
-		display: none
 		h3
 			color: #ffffff
 			i 
@@ -90,6 +98,7 @@ div#content
 					border-bottom: 1px solid #ffffff
 
 		ul.clean-list
+			margin-bottom: 20px
 			li:nth-child(1)
 				color: #ffffff
 			li:nth-child(2)
@@ -110,7 +119,15 @@ div#content
 			color: #ffffff
 		img 
 			width: 100%
-			box-shadow: 0px 3px 13px 0px rgba(46,46,46,1);
+			box-shadow: 0px 3px 13px 0px rgba(46,46,46,1)
+	.btn.btn-download
+		border-radius: 0
+		border: 1px solid #6796A9
+		color: #6796A9
+		transition: 0.6s all
+		&:hover 
+			background: #6796A9
+			color: #ffffff
 	#swimsuits, .logos
 		width: 100%
 		margin: 0 auto
@@ -122,7 +139,7 @@ div#content
 		width: 100%
 		display: block
 		background-color: #fff
-		box-shadow: 0px 3px 13px 0px rgba(46,46,46,1);
+		box-shadow: 0px 3px 13px 0px rgba(46,46,46,1)
 	p 
 		padding: 20px 10px
 		margin-top: 10px
@@ -170,14 +187,13 @@ footer
 		font-size: 30pt
 	ul.social-icons li 
 		padding: 0 25px 0 3px
-	#contents-list
+	.contents-list
 		display: none
 	.item > div 
 		width: 100%
 	p, span.glyphicon 
 		font-size: 25pt
 	div#content p 
-    	padding: 20px
 	footer 
 		padding: 25px 15px
 		a 
@@ -191,14 +207,14 @@ footer
 		font-size: 30pt
 	ul.social-icons li 
 		padding: 0 25px 0 3px
-	#contents-list
+	.contents-list
 		display: none
 	.item > div 
 		width: 100%
 	p, span.glyphicon 
 		font-size: 25pt
 	div#content p 
-    	padding: 20px
+		padding: 20px
 	footer 
 		padding: 25px 15px
 		a 
@@ -212,14 +228,14 @@ footer
 		font-size: 30pt
 	ul.social-icons li 
 		padding: 0 25px 0 3px
-	#contents-list
+	.contents-list
 		display: none
 	.item > div 
 		width: 100%
 	p, span.glyphicon 
 		font-size: 25pt
 	div#content p 
-    	padding: 20px
+		padding: 20px
 	footer 
 		padding: 25px 15px
 		a 
@@ -233,14 +249,14 @@ footer
 		font-size: 30pt
 	ul.social-icons li 
 		padding: 0 25px 0 3px
-	#contents-list
+	.contents-list
 		display: none
 	.item > div 
 		width: 100%
 	p, span.glyphicon 
 		font-size: 25pt
 	div#content p 
-    	padding: 20px
+		padding: 20px
 	footer 
 		padding: 25px 15px
 		a 

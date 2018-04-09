@@ -12,9 +12,6 @@ module.exports = function(grunt){
     		dist: {
       			files: {
        				'public/css/main.css': 'sass/main.sass'
-      			},
-      			options: {
-      				outputStyle: 'compressed'
       			}
     		}
   		},
@@ -56,10 +53,10 @@ module.exports = function(grunt){
 	});
 	
 	grunt.loadNpmTasks('grunt-wiredep');
-	grunt.loadNpmTasks('grunt-sass');
+	grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-minified');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 
-	grunt.registerTask('styles', ['sass', 'minified', 'watch']);
+	grunt.registerTask('default', ['sass', 'minified', 'watch']);
 }

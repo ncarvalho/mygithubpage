@@ -1,1 +1,306 @@
-body{font-family:'Raleway', sans-serif;font-size:12pt;font-weight:300;color:#212121;position:relative}h1{font-size:28pt;margin:0 0 10px 0}h1 a{color:#000000}h1 a:hover{color:#000000}h2{font-size:16pt;font-weight:300;margin:0}h3{font-size:14pt}h4{font-size:12pt;color:#89d6f5;margin-top:15px}p{font-size:10pt;vertical-align:middle}a{color:#48829A}a:hover{text-decoration:none;color:#295D73;transition:color .2s;cursor:pointer}a:focus{color:#295D73}.clean-list{list-style-type:none;padding:5px 0}div#details{width:25%;float:left;border-radius:2px;padding:5px;display:block;margin-top:50px;margin-bottom:50px;position:fixed}div#details #title{margin:20px 15px 15px 0}div#details ul#extras{font-size:12pt;float:left}div#details ul.social-icons{overflow:auto}div#details ul.social-icons li{display:inline-block;padding:0 10px 0 3px;float:left}div#details .contents-list{font-size:13px;padding-top:0}div#details .contents-list a:hover{font-style:italic}div#content{background-color:#4c1026;color:#BBBDC0;display:block;width:75%;float:left;overflow:hidden;margin-left:25%}div#content .item{margin-top:60px;margin-bottom:60px;padding:0}div#content #resume-text{font-size:11pt;display:none}div#content #resume-text h3{color:#ffffff}div#content #resume-text h3 i{opacity:0.4}div#content #resume-text h3 a{color:#ffffff}div#content #resume-text h3 a:focus{text-decoration:none}div#content #resume-text h3 a:nth-child(1){border-bottom:1px solid #ffffff}div#content #resume-text ul.clean-list li:nth-child(1){color:#ffffff}div#content #resume-text ul.clean-list li:nth-child(2){font-size:10pt}div#content #resume-text ul#resume-skills{list-style-type:none;padding:0}div#content #resume-text ul#resume-skills li{background-color:rgba(117,117,117,0.4);display:inline-block;color:#ffffff;padding:5px 10px;font-size:12px;margin-bottom:5px}div#content a{color:#6796A9}div#content a:hover{color:#ffffff}div#content a img{width:100%;box-shadow:0px 3px 13px 0px #2e2e2e}div#content #swimsuits,div#content .logos{width:100%;margin:0 auto}div#content #swimsuits a,div#content .logos a{width:50%;float:left;padding:10px}div#content video{width:100%;display:block;background-color:#fff;box-shadow:0px 3px 13px 0px #2e2e2e}div#content p{padding:20px 10px;margin-top:10px;border-left:2px solid #48829A}div#content p strong{color:#ffffff}span.glyphicon{margin:10px 0;color:#ffffff;font-size:10pt;background-color:rgba(117,117,117,0.4);padding:10px}footer{font-size:10pt;color:#999;padding:10px 0;text-align:center;display:none}footer p{margin:0}footer ul.social-icons{padding:0;margin:0}footer ul.social-icons li{display:inline-block;padding:0 10px}@media (max-width: 992px){div#details{width:100%;position:initial}div#content{width:100%;margin:0}footer{display:block}}@media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2){h1{font-size:70pt}h2{font-size:40pt}ul#extras a{font-size:30pt}ul.social-icons li{padding:0 25px 0 3px}#contents-list{display:none}.item>div{width:100%}p,span.glyphicon{font-size:25pt}div#content p{padding:20px}footer{padding:25px 15px}footer a{font-size:25pt}}@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3){h1{font-size:70pt}h2{font-size:40pt}ul#extras a{font-size:30pt}ul.social-icons li{padding:0 25px 0 3px}#contents-list{display:none}.item>div{width:100%}p,span.glyphicon{font-size:25pt}div#content p{padding:20px}footer{padding:25px 15px}footer a{font-size:25pt}}@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2){h1{font-size:70pt}h2{font-size:40pt}ul#extras a{font-size:30pt}ul.social-icons li{padding:0 25px 0 3px}#contents-list{display:none}.item>div{width:100%}p,span.glyphicon{font-size:25pt}div#content p{padding:20px}footer{padding:25px 15px}footer a{font-size:25pt}}@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3){h1{font-size:70pt}h2{font-size:40pt}ul#extras a{font-size:30pt}ul.social-icons li{padding:0 25px 0 3px}#contents-list{display:none}.item>div{width:100%}p,span.glyphicon{font-size:25pt}div#content p{padding:20px}footer{padding:25px 15px}footer a{font-size:25pt}}
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 12pt;
+  font-weight: 300;
+  color: #212121;
+  position: relative; }
+
+h1 {
+  font-size: 28pt;
+  margin: 0 0 10px 0; }
+  h1 a {
+    color: #000000; }
+    h1 a:hover {
+      color: #000000; }
+
+h2 {
+  font-size: 16pt;
+  font-weight: 300;
+  margin: 0; }
+
+h3 {
+  font-size: 14pt; }
+
+h4 {
+  font-size: 12pt;
+  color: #7cadc1;
+  margin-top: 15px; }
+
+p {
+  font-size: 10pt;
+  vertical-align: middle; }
+
+a {
+  color: #587e8e; }
+  a:hover {
+    text-decoration: none;
+    color: #295D73;
+    transition: color 0.2s;
+    cursor: pointer; }
+  a:focus {
+    color: #295D73; }
+
+.m-b {
+  margin-bottom: 30px; }
+
+.clean-list {
+  list-style-type: none;
+  padding: 5px 0; }
+
+.sub-list {
+  color: #ffffff;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 12px; }
+
+div#details {
+  width: 25%;
+  float: left;
+  border-radius: 2px;
+  padding: 5px;
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: fixed; }
+  div#details #title {
+    margin: 20px 15px 15px 0; }
+  div#details ul#extras {
+    font-size: 12pt;
+    float: left; }
+    div#details ul#extras a.active {
+      font-weight: bold;
+      color: #295D73; }
+  div#details ul.social-icons {
+    overflow: auto; }
+    div#details ul.social-icons li {
+      display: inline-block;
+      padding: 0 10px 0 3px;
+      float: left; }
+  div#details .contents-list {
+    font-size: 13px;
+    padding-top: 0; }
+    div#details .contents-list a:hover {
+      font-style: italic; }
+
+div#content {
+  background-color: #4c1026;
+  color: #BBBDC0;
+  display: block;
+  width: 75%;
+  float: left;
+  overflow: hidden;
+  margin-left: 25%; }
+  div#content .item {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 0; }
+  div#content #resume-text {
+    font-size: 11pt; }
+    div#content #resume-text h3 {
+      color: #ffffff; }
+      div#content #resume-text h3 i {
+        opacity: 0.4; }
+      div#content #resume-text h3 a {
+        color: #ffffff; }
+        div#content #resume-text h3 a:focus {
+          text-decoration: none; }
+        div#content #resume-text h3 a:nth-child(1) {
+          border-bottom: 1px solid #ffffff; }
+    div#content #resume-text ul.clean-list {
+      margin-bottom: 20px; }
+      div#content #resume-text ul.clean-list li:nth-child(1) {
+        color: #ffffff; }
+      div#content #resume-text ul.clean-list li:nth-child(2) {
+        font-size: 10pt; }
+    div#content #resume-text ul#resume-skills {
+      list-style-type: none;
+      padding: 0; }
+      div#content #resume-text ul#resume-skills li {
+        background-color: rgba(117, 117, 117, 0.4);
+        display: inline-block;
+        color: #ffffff;
+        padding: 5px 10px;
+        font-size: 12px;
+        margin-bottom: 5px; }
+  div#content a {
+    color: #6796A9; }
+    div#content a:hover {
+      color: #ffffff; }
+    div#content a img {
+      width: 100%;
+      box-shadow: 0px 3px 13px 0px #2e2e2e; }
+  div#content .btn.btn-download {
+    border-radius: 0;
+    border: 1px solid #6796A9;
+    color: #6796A9;
+    transition: 0.6s all; }
+    div#content .btn.btn-download:hover {
+      background: #6796A9;
+      color: #ffffff; }
+  div#content #swimsuits, div#content .logos {
+    width: 100%;
+    margin: 0 auto; }
+    div#content #swimsuits a, div#content .logos a {
+      width: 50%;
+      float: left;
+      padding: 10px; }
+  div#content video {
+    width: 100%;
+    display: block;
+    background-color: #fff;
+    box-shadow: 0px 3px 13px 0px #2e2e2e; }
+  div#content p {
+    padding: 20px 10px;
+    margin-top: 10px;
+    border-left: 2px solid #48829A; }
+    div#content p strong {
+      color: #ffffff; }
+
+span.glyphicon {
+  margin: 10px 0;
+  color: #ffffff;
+  font-size: 10pt;
+  background-color: rgba(117, 117, 117, 0.4);
+  padding: 10px; }
+
+footer {
+  font-size: 10pt;
+  color: #999;
+  padding: 10px 0;
+  text-align: center;
+  display: none; }
+  footer p {
+    margin: 0; }
+  footer ul.social-icons {
+    padding: 0;
+    margin: 0; }
+    footer ul.social-icons li {
+      display: inline-block;
+      padding: 0 10px; }
+
+@media (max-width: 992px) {
+  div#details {
+    width: 100%;
+    position: initial; }
+
+  div#content {
+    width: 100%;
+    margin: 0; }
+
+  footer {
+    display: block; } }
+@media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  h1 {
+    font-size: 70pt; }
+
+  h2 {
+    font-size: 40pt; }
+
+  ul#extras a {
+    font-size: 30pt; }
+
+  ul.social-icons li {
+    padding: 0 25px 0 3px; }
+
+  .contents-list {
+    display: none; }
+
+  .item > div {
+    width: 100%; }
+
+  p, span.glyphicon {
+    font-size: 25pt; }
+
+  footer {
+    padding: 25px 15px; }
+    footer a {
+      font-size: 25pt; } }
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  h1 {
+    font-size: 70pt; }
+
+  h2 {
+    font-size: 40pt; }
+
+  ul#extras a {
+    font-size: 30pt; }
+
+  ul.social-icons li {
+    padding: 0 25px 0 3px; }
+
+  .contents-list {
+    display: none; }
+
+  .item > div {
+    width: 100%; }
+
+  p, span.glyphicon {
+    font-size: 25pt; }
+
+  div#content p {
+    padding: 20px; }
+
+  footer {
+    padding: 25px 15px; }
+    footer a {
+      font-size: 25pt; } }
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+  h1 {
+    font-size: 70pt; }
+
+  h2 {
+    font-size: 40pt; }
+
+  ul#extras a {
+    font-size: 30pt; }
+
+  ul.social-icons li {
+    padding: 0 25px 0 3px; }
+
+  .contents-list {
+    display: none; }
+
+  .item > div {
+    width: 100%; }
+
+  p, span.glyphicon {
+    font-size: 25pt; }
+
+  div#content p {
+    padding: 20px; }
+
+  footer {
+    padding: 25px 15px; }
+    footer a {
+      font-size: 25pt; } }
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  h1 {
+    font-size: 70pt; }
+
+  h2 {
+    font-size: 40pt; }
+
+  ul#extras a {
+    font-size: 30pt; }
+
+  ul.social-icons li {
+    padding: 0 25px 0 3px; }
+
+  .contents-list {
+    display: none; }
+
+  .item > div {
+    width: 100%; }
+
+  p, span.glyphicon {
+    font-size: 25pt; }
+
+  div#content p {
+    padding: 20px; }
+
+  footer {
+    padding: 25px 15px; }
+    footer a {
+      font-size: 25pt; } }
+
+/*# sourceMappingURL=main.css.map */
