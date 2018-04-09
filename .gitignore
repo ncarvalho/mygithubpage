@@ -1,4 +1,4 @@
 *.ai
 *.docx
 .sass-cache/*
-.DS_store
+.DS_Store
