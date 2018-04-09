@@ -1,3 +1,4 @@
 *.ai
 *.docx
-Nicole-Carvalho-Cover-Letter.pdf
+.sass-cache/*
+.DS_store
