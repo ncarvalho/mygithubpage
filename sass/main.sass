@@ -33,33 +33,48 @@ a
 		cursor: pointer
 	&:focus
 		color: #295D73
+.m-t-sm
+	margin-top: 10px
 .m-b
 	margin-bottom: 30px
 .clean-list
 	list-style-type: none
 	padding: 5px 0
+.inline-list
+	li 
+		display: inline-block
+		margin: 0 10px 0 0
 .sub-list 
 	color: #ffffff
 	padding-left: 20px
 	padding-top: 10px
 	font-size: 12px
 div#details
-	width: 25%
-	float: left
 	border-radius: 2px
-	padding: 5px
+	padding: 0 40px
 	display: block
-	margin-top: 50px
-	margin-bottom: 50px
-	position: fixed
+	margin-top: 20px
+	margin-bottom: 20px
+	width: 100%
+	overflow: hidden
 	#title
 		margin: 20px 15px 15px 0
+		overflow: hidden
+		h1 
+			margin-right: 10px
+		h2
+			margin-top: 20px
+			font-size: 12pt
 	ul#extras
 		font-size: 12pt
-		float: left
+		float: right
+		margin: 36px 0
+		a 
+			letter-spacing: 1px
 		a.active 
 			font-weight: bold
 			color: #295D73
+			border-bottom: 1px solid #295D73
 	ul.social-icons
 		overflow: auto
 		li 
@@ -75,14 +90,11 @@ div#details
 div#content
 	background-color: #4c1026
 	color: #BBBDC0
-	display: block
-	width: 75%
-	float: left
 	overflow: hidden
-	margin-left: 25%
+	width: 100%
+	padding: 40px 40px 0
 	.item
-		margin-top: 60px
-		margin-bottom: 60px
+		margin-bottom: 30px
 		padding: 0
 	#resume-text
 		font-size: 11pt
@@ -120,7 +132,7 @@ div#content
 		img 
 			width: 100%
 			box-shadow: 0px 3px 13px 0px rgba(46,46,46,1)
-	.btn.btn-download
+	.btn.btn-blue
 		border-radius: 0
 		border: 1px solid #6796A9
 		color: #6796A9
@@ -141,8 +153,7 @@ div#content
 		background-color: #fff
 		box-shadow: 0px 3px 13px 0px rgba(46,46,46,1)
 	p 
-		padding: 20px 10px
-		margin-top: 10px
+		padding: 5px 10px
 		border-left: 2px solid #48829A
 		strong
 			color: #ffffff
@@ -158,7 +169,6 @@ footer
 	color: #999
 	padding: 10px 0
 	text-align: center
-	display: none
 	p 
 		margin: 0
 	ul.social-icons

@@ -40,12 +40,19 @@ a {
   a:focus {
     color: #295D73; }
 
+.m-t-sm {
+  margin-top: 10px; }
+
 .m-b {
   margin-bottom: 30px; }
 
 .clean-list {
   list-style-type: none;
   padding: 5px 0; }
+
+.inline-list li {
+  display: inline-block;
+  margin: 0 10px 0 0; }
 
 .sub-list {
   color: #ffffff;
@@ -54,22 +61,31 @@ a {
   font-size: 12px; }
 
 div#details {
-  width: 25%;
-  float: left;
   border-radius: 2px;
-  padding: 5px;
+  padding: 0 40px;
   display: block;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  position: fixed; }
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  overflow: hidden; }
   div#details #title {
-    margin: 20px 15px 15px 0; }
+    margin: 20px 15px 15px 0;
+    overflow: hidden; }
+    div#details #title h1 {
+      margin-right: 10px; }
+    div#details #title h2 {
+      margin-top: 20px;
+      font-size: 12pt; }
   div#details ul#extras {
     font-size: 12pt;
-    float: left; }
+    float: right;
+    margin: 36px 0; }
+    div#details ul#extras a {
+      letter-spacing: 1px; }
     div#details ul#extras a.active {
       font-weight: bold;
-      color: #295D73; }
+      color: #295D73;
+      border-bottom: 1px solid #295D73; }
   div#details ul.social-icons {
     overflow: auto; }
     div#details ul.social-icons li {
@@ -85,14 +101,11 @@ div#details {
 div#content {
   background-color: #4c1026;
   color: #BBBDC0;
-  display: block;
-  width: 75%;
-  float: left;
   overflow: hidden;
-  margin-left: 25%; }
+  width: 100%;
+  padding: 40px 40px 0; }
   div#content .item {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     padding: 0; }
   div#content #resume-text {
     font-size: 11pt; }
@@ -129,12 +142,12 @@ div#content {
     div#content a img {
       width: 100%;
       box-shadow: 0px 3px 13px 0px #2e2e2e; }
-  div#content .btn.btn-download {
+  div#content .btn.btn-blue {
     border-radius: 0;
     border: 1px solid #6796A9;
     color: #6796A9;
     transition: 0.6s all; }
-    div#content .btn.btn-download:hover {
+    div#content .btn.btn-blue:hover {
       background: #6796A9;
       color: #ffffff; }
   div#content #swimsuits, div#content .logos {
@@ -150,8 +163,7 @@ div#content {
     background-color: #fff;
     box-shadow: 0px 3px 13px 0px #2e2e2e; }
   div#content p {
-    padding: 20px 10px;
-    margin-top: 10px;
+    padding: 5px 10px;
     border-left: 2px solid #48829A; }
     div#content p strong {
       color: #ffffff; }
@@ -167,8 +179,7 @@ footer {
   font-size: 10pt;
   color: #999;
   padding: 10px 0;
-  text-align: center;
-  display: none; }
+  text-align: center; }
   footer p {
     margin: 0; }
   footer ul.social-icons {
@@ -178,17 +189,9 @@ footer {
       display: inline-block;
       padding: 0 10px; }
 
-@media (max-width: 992px) {
-  div#details {
-    width: 100%;
-    position: initial; }
-
-  div#content {
-    width: 100%;
-    margin: 0; }
-
-  footer {
-    display: block; } }
+@media(max-width: 767px) {
+  #title h2 {
+    display: none; } }
 @media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   h1 {
     font-size: 60pt; }
@@ -208,12 +211,12 @@ footer {
   p, span.glyphicon {
     font-size: 30pt; }
 
-  #top-copyright {
+  #top-copyright, #portfolio-nav {
     display: none; }
 
   footer {
     padding: 25px 15px; }
-    footer a {
+    footer a, footer small {
       font-size: 28pt; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
   h1 {
@@ -237,7 +240,7 @@ footer {
   div#content p {
     padding: 20px; }
 
-  #top-copyright {
+  #top-copyright, #portfolio-nav {
     display: none; }
 
   footer {
@@ -266,7 +269,7 @@ footer {
   div#content p {
     padding: 20px; }
 
-  #top-copyright {
+  #top-copyright, #portfolio-nav {
     display: none; }
 
   footer {
@@ -295,7 +298,7 @@ footer {
   div#content p {
     padding: 20px; }
 
-  #top-copyright {
+  #top-copyright, #portfolio-nav {
     display: none; }
 
   footer {
