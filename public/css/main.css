@@ -1,12 +1,12 @@
 body {
   font-family: "Raleway", sans-serif;
-  font-size: 12pt;
+  font-size: 13px;
   font-weight: 300;
   color: #212121;
   position: relative; }
 
 h1 {
-  font-size: 28pt;
+  font-size: 36px;
   margin: 0 0 10px 0; }
   h1 a {
     color: #000000; }
@@ -14,20 +14,20 @@ h1 {
       color: #000000; }
 
 h2 {
-  font-size: 16pt;
+  font-size: 22px;
   font-weight: 300;
   margin: 0; }
 
 h3 {
-  font-size: 14pt; }
+  font-size: 18px; }
 
 h4 {
-  font-size: 12pt;
+  font-size: 16px;
   color: #7cadc1;
   margin-top: 15px; }
 
 p {
-  font-size: 10pt;
+  font-size: 13px;
   vertical-align: middle; }
 
 a {
@@ -74,10 +74,10 @@ div#details {
     div#details #title h1 {
       margin-right: 10px; }
     div#details #title h2 {
-      margin-top: 20px;
-      font-size: 12pt; }
+      margin-top: 23px;
+      font-size: 16px; }
   div#details ul#extras {
-    font-size: 12pt;
+    font-size: 16px;
     float: right;
     margin: 36px 0; }
     div#details ul#extras a {
@@ -108,7 +108,7 @@ div#content {
     margin-bottom: 30px;
     padding: 0; }
   div#content #resume-text {
-    font-size: 11pt; }
+    font-size: 16px; }
     div#content #resume-text h3 {
       color: #ffffff; }
       div#content #resume-text h3 i {
@@ -124,7 +124,7 @@ div#content {
       div#content #resume-text ul.clean-list li:nth-child(1) {
         color: #ffffff; }
       div#content #resume-text ul.clean-list li:nth-child(2) {
-        font-size: 10pt; }
+        font-size: 13px; }
     div#content #resume-text ul#resume-skills {
       list-style-type: none;
       padding: 0; }
@@ -171,15 +171,14 @@ div#content {
 span.glyphicon {
   margin: 10px 0;
   color: #ffffff;
-  font-size: 10pt;
+  font-size: 13px;
   background-color: rgba(117, 117, 117, 0.4);
   padding: 10px; }
 
 footer {
-  font-size: 10pt;
+  font-size: 13px;
   color: #999;
-  padding: 10px 0;
-  text-align: center; }
+  padding: 20px 30px; }
   footer p {
     margin: 0; }
   footer ul.social-icons {
@@ -193,117 +192,16 @@ footer {
   #title h2 {
     display: none; } }
 @media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-  h1 {
-    font-size: 60pt; }
-
-  h2 {
-    font-size: 40pt; }
-
-  ul#extras a {
-    font-size: 35pt; }
-
-  ul.social-icons li {
-    padding: 0 25px 0 3px; }
-
-  .item > div {
-    width: 100%; }
-
-  p, span.glyphicon {
-    font-size: 30pt; }
-
-  #top-copyright, #portfolio-nav {
-    display: none; }
-
-  footer {
-    padding: 25px 15px; }
-    footer a, footer small {
-      font-size: 28pt; } }
+  #title h2 {
+    display: none; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-  h1 {
-    font-size: 60pt; }
-
-  h2 {
-    font-size: 40pt; }
-
-  ul#extras a {
-    font-size: 35pt; }
-
-  ul.social-icons li {
-    padding: 0 25px 0 3px; }
-
-  .item > div {
-    width: 100%; }
-
-  p, span.glyphicon {
-    font-size: 30pt; }
-
-  div#content p {
-    padding: 20px; }
-
-  #top-copyright, #portfolio-nav {
-    display: none; }
-
-  footer {
-    padding: 25px 15px; }
-    footer a, footer small {
-      font-size: 28pt; } }
+  #title h2 {
+    display: none; } }
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
-  h1 {
-    font-size: 60pt; }
-
-  h2 {
-    font-size: 40pt; }
-
-  ul#extras a {
-    font-size: 35pt; }
-
-  ul.social-icons li {
-    padding: 0 25px 0 3px; }
-
-  .item > div {
-    width: 100%; }
-
-  p, span.glyphicon {
-    font-size: 30pt; }
-
-  div#content p {
-    padding: 20px; }
-
-  #top-copyright, #portfolio-nav {
-    display: none; }
-
-  footer {
-    padding: 25px 15px; }
-    footer a, footer small {
-      font-size: 28pt; } }
+  #title h2 {
+    display: none; } }
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
-  h1 {
-    font-size: 60pt; }
-
-  h2 {
-    font-size: 40pt; }
-
-  ul#extras a {
-    font-size: 35pt; }
-
-  ul.social-icons li {
-    padding: 0 25px 0 3px; }
-
-  .item > div {
-    width: 100%; }
-
-  p, span.glyphicon {
-    font-size: 30pt; }
-
-  div#content p {
-    padding: 20px; }
-
-  #top-copyright, #portfolio-nav {
-    display: none; }
-
-  footer {
-    padding: 25px 15px; }
-    footer a, footer small {
-      font-size: 28pt; } }
+  #title h2 {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */
