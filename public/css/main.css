@@ -405,7 +405,7 @@ footer {
     font-size: 26px; }
 
   div#details ul#extras {
-    font-size: 34px; }
+    font-size: 40px; }
 
   #title h2 {
     display: none; }
@@ -418,7 +418,8 @@ footer {
 
   div#content p {
     padding: 15px 20px;
-    border-left-width: 5px; }
+    border-left-width: 15px;
+    margin-bottom: 60px; }
 
   div#content #resume-text {
     font-size: 46px; }
@@ -432,9 +433,10 @@ footer {
   .btn.btn-blue {
     width: 100%;
     margin: 15px 0;
+    padding: 30px 20px;
     font-size: 28px;
     background-color: #6796A9;
-    color: #ffffff; }
+    color: #ffffff !important; }
 
   footer {
     font-size: 30px; } }
