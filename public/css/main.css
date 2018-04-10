@@ -191,7 +191,7 @@ footer {
     display: none; } }
 @media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   #logo-img {
-    width: 80px; }
+    width: 100px; }
 
   .header-left {
     width: 33.33%; }
@@ -236,6 +236,8 @@ footer {
 
   div#content #resume-text {
     font-size: 46px; }
+    div#content #resume-text h4:not(:nth-child(2)) {
+      margin-top: 40px; }
     div#content #resume-text ul.clean-list li {
       font-size: 46px; }
     div#content #resume-text ul.clean-list li:nth-child(2) {
@@ -256,7 +258,7 @@ footer {
     font-size: 30px; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
   #logo-img {
-    width: 80px; }
+    width: 100px; }
 
   .header-left {
     width: 33.33%; }
@@ -301,6 +303,8 @@ footer {
 
   div#content #resume-text {
     font-size: 46px; }
+    div#content #resume-text h4:not(:nth-child(2)) {
+      margin-top: 40px; }
     div#content #resume-text ul.clean-list li {
       font-size: 46px; }
     div#content #resume-text ul.clean-list li:nth-child(2) {
@@ -321,7 +325,7 @@ footer {
     font-size: 30px; } }
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
   #logo-img {
-    width: 80px; }
+    width: 100px; }
 
   .header-left {
     width: 33.33%; }
@@ -366,6 +370,8 @@ footer {
 
   div#content #resume-text {
     font-size: 46px; }
+    div#content #resume-text h4:not(:nth-child(2)) {
+      margin-top: 40px; }
     div#content #resume-text ul.clean-list li {
       font-size: 46px; }
     div#content #resume-text ul.clean-list li:nth-child(2) {
@@ -386,7 +392,7 @@ footer {
     font-size: 30px; } }
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
   #logo-img {
-    width: 80px; }
+    width: 100px; }
 
   .header-left {
     width: 33.33%; }
@@ -431,6 +437,8 @@ footer {
 
   div#content #resume-text {
     font-size: 46px; }
+    div#content #resume-text h4:not(:nth-child(2)) {
+      margin-top: 40px; }
     div#content #resume-text ul.clean-list li {
       font-size: 46px; }
     div#content #resume-text ul.clean-list li:nth-child(2) {
