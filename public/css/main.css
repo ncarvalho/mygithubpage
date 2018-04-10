@@ -226,9 +226,6 @@ footer {
   .item > row > .col-xs-12 {
     width: 100% !important; }
 
-  div.item {
-    margin-bottom: 60px; }
-
   #resume-text {
     font-size: 46px; }
     #resume-text ul.clean-list li:nth-child(2) {
@@ -281,9 +278,6 @@ footer {
 
   .item > row > .col-xs-12 {
     width: 100% !important; }
-
-  div.item {
-    margin-bottom: 60px; }
 
   #resume-text {
     font-size: 46px; }
@@ -338,9 +332,6 @@ footer {
   .item > row > .col-xs-12 {
     width: 100% !important; }
 
-  div.item {
-    margin-bottom: 60px; }
-
   #resume-text {
     font-size: 46px; }
     #resume-text ul.clean-list li:nth-child(2) {
@@ -393,9 +384,6 @@ footer {
 
   .item > row > .col-xs-12 {
     width: 100% !important; }
-
-  div.item {
-    margin-bottom: 60px; }
 
   #resume-text {
     font-size: 46px; }
