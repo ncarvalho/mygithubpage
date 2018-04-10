@@ -191,116 +191,116 @@ footer {
     display: block; } }
 @media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   h1 {
-    font-size: 70pt; }
+    font-size: 60pt; }
 
   h2 {
     font-size: 40pt; }
 
   ul#extras a {
-    font-size: 30pt; }
+    font-size: 35pt; }
 
   ul.social-icons li {
     padding: 0 25px 0 3px; }
-
-  .contents-list {
-    display: none; }
 
   .item > div {
     width: 100%; }
 
   p, span.glyphicon {
-    font-size: 25pt; }
+    font-size: 30pt; }
+
+  #top-copyright {
+    display: none; }
 
   footer {
     padding: 25px 15px; }
     footer a {
-      font-size: 25pt; } }
+      font-size: 28pt; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
   h1 {
-    font-size: 70pt; }
+    font-size: 60pt; }
 
   h2 {
     font-size: 40pt; }
 
   ul#extras a {
-    font-size: 30pt; }
+    font-size: 35pt; }
 
   ul.social-icons li {
     padding: 0 25px 0 3px; }
-
-  .contents-list {
-    display: none; }
 
   .item > div {
     width: 100%; }
 
   p, span.glyphicon {
-    font-size: 25pt; }
+    font-size: 30pt; }
 
   div#content p {
     padding: 20px; }
 
+  #top-copyright {
+    display: none; }
+
   footer {
     padding: 25px 15px; }
-    footer a {
-      font-size: 25pt; } }
+    footer a, footer small {
+      font-size: 28pt; } }
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
   h1 {
-    font-size: 70pt; }
+    font-size: 60pt; }
 
   h2 {
     font-size: 40pt; }
 
   ul#extras a {
-    font-size: 30pt; }
+    font-size: 35pt; }
 
   ul.social-icons li {
     padding: 0 25px 0 3px; }
-
-  .contents-list {
-    display: none; }
 
   .item > div {
     width: 100%; }
 
   p, span.glyphicon {
-    font-size: 25pt; }
+    font-size: 30pt; }
 
   div#content p {
     padding: 20px; }
 
+  #top-copyright {
+    display: none; }
+
   footer {
     padding: 25px 15px; }
-    footer a {
-      font-size: 25pt; } }
+    footer a, footer small {
+      font-size: 28pt; } }
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
   h1 {
-    font-size: 70pt; }
+    font-size: 60pt; }
 
   h2 {
     font-size: 40pt; }
 
   ul#extras a {
-    font-size: 30pt; }
+    font-size: 35pt; }
 
   ul.social-icons li {
     padding: 0 25px 0 3px; }
-
-  .contents-list {
-    display: none; }
 
   .item > div {
     width: 100%; }
 
   p, span.glyphicon {
-    font-size: 25pt; }
+    font-size: 30pt; }
 
   div#content p {
     padding: 20px; }
 
+  #top-copyright {
+    display: none; }
+
   footer {
     padding: 25px 15px; }
-    footer a {
-      font-size: 25pt; } }
+    footer a, footer small {
+      font-size: 28pt; } }
 
 /*# sourceMappingURL=main.css.map */
