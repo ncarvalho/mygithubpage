@@ -223,7 +223,7 @@ footer {
   #title h2 {
     display: none; }
 
-  .item > row > .col-xs-12 {
+  .item > .row > .col-xs-12 {
     width: 100% !important; }
 
   #resume-text {
@@ -276,7 +276,7 @@ footer {
   #title h2 {
     display: none; }
 
-  .item > row > .col-xs-12 {
+  .item > .row > .col-xs-12 {
     width: 100% !important; }
 
   #resume-text {
@@ -329,7 +329,7 @@ footer {
   #title h2 {
     display: none; }
 
-  .item > row > .col-xs-12 {
+  .item > .row > .col-xs-12 {
     width: 100% !important; }
 
   #resume-text {
@@ -382,7 +382,7 @@ footer {
   #title h2 {
     display: none; }
 
-  .item > row > .col-xs-12 {
+  .item > .row > .col-xs-12 {
     width: 100% !important; }
 
   #resume-text {
