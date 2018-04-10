@@ -220,6 +220,8 @@ footer {
 
   div#details ul#extras {
     font-size: 40px; }
+    div#details ul#extras a.active {
+      border-bottom: 3px solid #295D73; }
 
   #title h2 {
     display: none; }
