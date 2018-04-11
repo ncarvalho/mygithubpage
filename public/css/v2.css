@@ -2,11 +2,11 @@ html {
   height: 100%; }
 
 body {
-  height: 100%;
   position: relative;
-  background: #fdfdfb;
+  background: #ffffff;
   color: #333;
-  font-family: "Lato", sans-serif; }
+  font-family: "Lato", sans-serif;
+  margin: 79px 0 60px 0; }
 
 h1, h2 {
   font-family: "Prata", serif;
@@ -17,17 +17,49 @@ h1, h2 {
 h2 {
   margin-bottom: 10px; }
 
+h3 {
+  letter-spacing: 1px;
+  font-size: 20px;
+  margin-bottom: 15px; }
+
+h4 {
+  font-size: 16px;
+  margin: 0 0 5px 0; }
+
+h5 {
+  font-size: 12px; }
+
+a {
+  color: #b76a33; }
+  a:hover, a:focus {
+    color: #a35e2d; }
+
+.m-b {
+  margin-bottom: 40px; }
+
 header {
-  padding: 20px; }
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #ffffff;
+  z-index: 1; }
 
 footer {
   padding: 20px;
   position: fixed;
   bottom: 0;
   width: 100%;
-  background: #fdfdfb; }
+  background: #ffffff;
+  z-index: 1; }
   footer p {
     margin: 0; }
+
+.navi {
+  text-align: right; }
+  .navi li > a {
+    display: block;
+    padding: 10px 15px; }
 
 .inline-list {
   padding: 0;
@@ -42,46 +74,49 @@ footer {
     color: #333; }
 
 .items-container {
-  height: 100%; }
-  .items-container .work-item {
+  height: 100%;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-delay: 0.3s; }
+  .items-container .table {
     display: table;
     width: 100%;
     height: 100%; }
-    .items-container .work-item .desc {
+    .items-container .table .table-cell {
       display: table-cell;
-      width: 50%;
-      padding: 0 40px 0 20px;
+      padding: 20px;
       vertical-align: middle; }
-    .items-container .work-item .visual {
-      display: table-cell;
-      width: 50%; }
-      .items-container .work-item .visual:hover .overlay {
-        opacity: 0.1; }
-      .items-container .work-item .visual .expand {
-        position: absolute;
-        top: 45%;
-        background: teal;
-        z-index: 1;
-        color: #fff;
-        border: 0;
-        padding: 20px;
-        height: 60px;
-        width: 60px;
-        border-radius: 50%;
-        left: 48%; }
-      .items-container .work-item .visual .img-wrapper {
-        position: relative; }
-        .items-container .work-item .visual .img-wrapper:hover .overlay {
-          opacity: 0.1; }
-        .items-container .work-item .visual .img-wrapper .overlay {
-          position: absolute;
-          background: black;
-          opacity: 0.5;
-          top: 0;
-          bottom: 0;
-          width: 100%;
-          transition: 0.5s opacity; }
-        .items-container .work-item .visual .img-wrapper img {
-          width: 200%; }
+      .items-container .table .table-cell.cell-70 {
+        width: 70%; }
+      .items-container .table .table-cell.cell-60 {
+        width: 60%; }
+      .items-container .table .table-cell.cell-50 {
+        width: 50%; }
+      .items-container .table .table-cell.cell-40 {
+        width: 40%; }
+      .items-container .table .table-cell.cell-30 {
+        width: 30%; }
+
+.img-wrapper img {
+  width: 100%; }
+
+.tech-items li {
+  background: rgba(204, 198, 180, 0.2);
+  padding: 3px 8px;
+  margin: 0 5px 7px 0; }
+
+#work, #about, #jumbotron {
+  padding: 80px 0;
+  margin-top: -80px; }
+
+.work-spinner ul > li > a {
+  padding: 10px;
+  display: block; }
+
+.quote {
+  line-height: 25px;
+  font-weight: 300; }
+  .quote .quoted-by {
+    font-weight: 700;
+    display: block; }
 
 /*# sourceMappingURL=v2.css.map */

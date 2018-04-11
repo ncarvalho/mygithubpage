@@ -6,44 +6,149 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<title>v2</title>
 
-	<link href="https://fonts.googleapis.com/css?family=Lato|Prata" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Prata" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/v2.css">
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 
+	<link rel="stylesheet" type="text/css" href="assets/animate.css">
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script type="text/javascript" src="js/main.min.js"></script>
 </head>
 
 <body>
-
-	<div class="items-container">
-		<div class="work-item" id="slate">
-			<div class="desc">
-				<h2>slate</h2>
-				<p>An in-house homeowners insurance application currently under development. The purpose of this application is to help create, track, and process insurance claims and policies. The main users for this application include claim's adjusters within the insurance company.</p>
+	<header>
+		<div class="row">
+			<h1 class="col-xs-6">nicole</h1>
+			<div class="col-xs-6">
+				<ul class="inline-list navi">
+					<li><a href="#work">work</a></li>
+					<li><a href="#about">about</a></li>
+				</ul>
 			</div>
-			<div class="visual">
-				<button class="expand"><i class="fas fa-chevron-right"></i></button>
-				<div class="img-wrapper">
-					<img src="assets/claim-summary.png">
-					<div class="overlay"></div>
+		</div>
+	</header>
+
+	<div class="items-container animated fadeIn">
+		<div id="jumbotron">
+			<div class="table">
+				<div class="table-cell cell-70">
+					<div class="img-wrapper m-b">
+						<img src="assets/placeholder.jpg">
+					</div>
+				</div>
+				<div class="table-cell cell-30">
+					<h2>nicole tavares carvalho is a web designer &amp; developer currently based in los angeles.</h2>
+				</div>
+			</div>
+		</div>
+
+		<div id="work">
+			<div class="table" id="slate">
+				<div class="table-cell cell-40">
+					<h2>slate</h2>
+					<p>An in-house homeowners insurance application currently under development. The purpose of this application is to help create, track, and process insurance claims and policies. The main users for this application include claim adjusters within the insurance company.</p>
+				</div>
+				<div class=" table-cell cell-60" id="slate-visual">
+					<div class="img-wrapper">
+						<img src="assets/claim-summary.png" title="portrait">
+					</div>
+				</div>
+			</div>
+
+			<div class="work-spinner">
+				<ul class="inline-list text-center">
+					<li><a href=""><i class="fas fa-long-arrow-alt-left"></i></a></li>
+					<li><a href=""><i class="fas fa-circle fa-xs"></i></a></li>
+					<li><a href=""><i class="far fa-circle fa-xs"></i></a></li>
+					<li><a href=""><i class="far fa-circle fa-xs"></i></a></li>
+					<li><a href=""><i class="fas fa-long-arrow-alt-right"></i></a></li>
+				</ul>
+			</div>
+		</div>
+
+
+		<div id="about">
+			<div class="table">
+				<div class="table-cell cell-50">
+					<!-- <div class="img-wrapper m-b">
+						<img src="assets/placeholder.jpg">
+					</div> -->
+					<div class="m-b">
+						<h2>about</h2>
+						<p>Nicole Tavares Carvalho is a web designer and developer. She enjoys working on development projects for both desktop and mobile. Her approach to design is focused on clear and effective communication.</p>
+					</div>
+					
+
+					<h3>recommendations</h3>
+					<p class="quote">
+						"Nicole is, in a word, awesome. She has an amazing attitude, a great eye for design, a strong desire to learn, and work ethic that is admirable. There have been many times where I've had to go to Nicole for an explanation of some UI issue or methodology and she has always been able to give me clear, concise answers without ever making me feel bad for not know the simplest of things despite my years of experience. Nicole loves to make things beautiful and she is very good at it. I'm very lucky to work with Nicole and I hope we're able to continue working together for a long time."
+						<span class="quoted-by">Sherman Gore, Consultant / Senior Software Engineer at PRO Unlimited</span>
+					</p>
+				</div>
+				<div class="table-cell cell-50">
+					<div class="m-b">
+						<h3>experience</h2>
+						<div class="experience-item">
+							<h4>VeroxTech, Inc <small>Los Angeles, CA</small></h3>
+							<h5>Front-End Developer from Sep 2016 - present</p>
+						</div>
+						<div class="experience-item">
+							<h4>eCommetize <small>Orlando, FL</small></h3>
+							<h5>Front-End Developer from May 2016 - Nov 2016</p>
+						</div>
+						<div class="experience-item">
+							<h4>Portlight <small>Winter Park, FL</small></h3>
+							<h5>Front-End Developer from Aug 2014 - Apr 2015</p>
+						</div>
+					</div>
+					<div class="m-b">
+						<h3>technical experience</h2>
+						<div class="experience-item">
+							<ul class="inline-list tech-items">
+								<li>Adobe Creative Suite</li>
+								<li>Windows and Mac OS</li>
+								<li>HTML5</li>
+								<li>CSS3/SASS</li>
+								<li>Bootstrap</li>
+								<li>Javascript</li>
+								<li>jQuery</li>
+								<li>Angular</li>
+								<li>KendoUI</li>
+								<li>Git</li>
+								<li>Grunt</li>
+								<li>NPM</li>
+								<li>TFS</li>
+							</ul>
+						</div>
+					</div>
+					<div class="m-b">
+						<h3>education</h2>
+						<div class="experience-item">
+							<h4>Full Sail University <small>Winter Park, FL</small></h3>
+							<p>Web Design and Development, B.S. Aug 2012 - Aug 2015</p>
+						</div>
+					</div>
+					<a href="assets/Nicole-Carvalho-Resume.pdf" target="_blank">
+						view resume <i class="fas fa-external-link-alt fa-xs"></i>
+					</a>
 				</div>
 			</div>
 		</div>
 	</div>
 
-
 	<footer>
 		<div class="row">
 			<div class="col-xs-6">
-				<p>&copy; nicole tavares carvalho</p>
+				<p><i class="far fa-copyright fa-xs"></i> nicole tavares carvalho <small>2018</strong></p>
 			</div>
 			<div class="col-xs-6">
 				<ul class="inline-list social-links">
 					<li><a href="https://instagram.com/nicolernie/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/nicoletavarescarvalho/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
 					<li><a href="https://github.com/ncarvalho" target="_blank"><i class="fab fa-github"></i></a></li>
 					<li><a href="mailto:nicolecar14@gmail.com"><i class="far fa-envelope"></i></a></li>
 				</ul>
