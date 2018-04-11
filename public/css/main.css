@@ -44,7 +44,9 @@ a {
   border-radius: 0;
   border: 1px solid #6796A9;
   color: #6796A9;
-  transition: 0.6s all; }
+  transition: 0.6s all;
+  font-weight: bold;
+  font-size: 14px; }
   .btn.btn-blue:hover {
     background: #6796A9;
     color: #ffffff; }
