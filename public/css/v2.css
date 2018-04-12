@@ -205,11 +205,11 @@ footer {
   h5 {
     font-size: 25px; }
 
-  a, p, .tech-items li {
+  a, p {
     font-size: 35px; }
 
-  .navi {
-    display: none; }
+  .tech-items li {
+    font-size: 30px; }
 
   .quote {
     line-height: 55px; }
@@ -237,6 +237,9 @@ footer {
 
   header, footer {
     position: relative; }
+
+  footer {
+    font-size: 30px; }
 
   body {
     margin: 0; } }
@@ -257,11 +260,11 @@ footer {
   h5 {
     font-size: 25px; }
 
-  a, p, .tech-items li {
+  a, p {
     font-size: 35px; }
 
-  .navi {
-    display: none; }
+  .tech-items li {
+    font-size: 30px; }
 
   .quote {
     line-height: 55px; }
@@ -289,6 +292,9 @@ footer {
 
   header, footer {
     position: relative; }
+
+  footer {
+    font-size: 30px; }
 
   body {
     margin: 0; } }
@@ -309,11 +315,11 @@ footer {
   h5 {
     font-size: 25px; }
 
-  a, p, .tech-items li {
+  a, p {
     font-size: 35px; }
 
-  .navi {
-    display: none; }
+  .tech-items li {
+    font-size: 30px; }
 
   .quote {
     line-height: 55px; }
@@ -341,6 +347,9 @@ footer {
 
   header, footer {
     position: relative; }
+
+  footer {
+    font-size: 30px; }
 
   body {
     margin: 0; } }
@@ -361,11 +370,11 @@ footer {
   h5 {
     font-size: 25px; }
 
-  a, p, .tech-items li {
+  a, p {
     font-size: 35px; }
 
-  .navi {
-    display: none; }
+  .tech-items li {
+    font-size: 30px; }
 
   .quote {
     line-height: 55px; }
@@ -393,6 +402,9 @@ footer {
 
   header, footer {
     position: relative; }
+
+  footer {
+    font-size: 30px; }
 
   body {
     margin: 0; } }
