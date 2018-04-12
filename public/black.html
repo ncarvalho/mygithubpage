@@ -6,17 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<title>v2</title>
 
+	<!-- fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Prata" rel="stylesheet">
+
+	<!-- css -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/v2.css">
-	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-
 	<link rel="stylesheet" type="text/css" href="assets/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+  	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+	<link rel="stylesheet" type="text/css" href="css/v2.css">
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script type="text/javascript" src="js/main.min.js"></script>
+	<!-- icons -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 </head>
 
 <body>
@@ -35,48 +36,89 @@
 	<div class="items-container animated fadeIn">
 		<div id="jumbotron">
 			<div class="table">
-				<div class="table-cell cell-70">
-					<div class="img-wrapper m-b">
-						<img src="assets/placeholder.jpg">
-					</div>
-				</div>
-				<div class="table-cell cell-30">
+				<div class="table-cell">
 					<h2>nicole tavares carvalho is a web designer &amp; developer currently based in los angeles.</h2>
 				</div>
 			</div>
 		</div>
 
 		<div id="work">
-			<div class="table" id="slate">
-				<div class="table-cell cell-40">
-					<h2>slate</h2>
-					<p>An in-house homeowners insurance application currently under development. The purpose of this application is to help create, track, and process insurance claims and policies. The main users for this application include claim adjusters within the insurance company.</p>
-				</div>
-				<div class=" table-cell cell-60" id="slate-visual">
-					<div class="img-wrapper">
-						<img src="assets/claim-summary.png" title="portrait">
+			<div class="slider-container">
+				<div class="work-carousel">
+					<div>
+						<div class="table no-padding" id="slate">
+							<div class="table-cell cell-30">
+								<h2>Slate</h2>
+								<p>An in-house homeowners insurance application currently under development. The purpose of this application is to help create, track, and process insurance claims and policies. The main users for this application include claim adjusters within the insurance company.</p>
+							</div>
+							<div class="table-cell cell-70">
+								<div class="img-wrapper">
+									<a href="assets/claim-summary.png"><img src="assets/claim-summary.png" class="zoom" title="slate"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="table" id="slate">
+							<div class="table-cell cell-70">
+								<div class="img-wrapper">
+									<a href="assets/blue-digger-product.png"><img src="assets/blue-digger-product.png" class="zoom" title="blue digger"></a>
+								</div>
+							</div>
+							<div class="table-cell cell-30">
+								<h2>Blue Digger</h2>
+								<p>Blue Digger, a current eCommetize client, is an online store selling tons of useful products for children and families. <br><a target="_blank" href="https://bluedigger.com/">Check me out!</a></p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="table" id="slate">
+							<div class="table-cell cell-30">
+								<h2>Castr</h2>
+								<p>Version 1.0 of final project named Castr, an audition organizing application. Built using AngularJS and Firebase.</p>
+							</div>
+							<div class="table-cell cell-70">
+								<div class="img-wrapper">
+									<video id="eatable" preload controls>
+										<source src="assets/castr-tutorial.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+									</video>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="table" id="slate">
+							<div class="table-cell cell-70">
+								<div class="img-wrapper">
+									<video id="eatable" preload controls>
+										<source src="assets/carvalho_nicole_screencast.mov" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+									</video>
+								</div>
+							</div>
+							<div class="table-cell cell-30" id="slate-visual">
+								<h2>Eatable</h2>
+								<p>Recipe search application named Eatable built in PHP Framework, Laravel.</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-
-			<div class="work-spinner">
-				<ul class="inline-list text-center">
-					<li><a href=""><i class="fas fa-long-arrow-alt-left"></i></a></li>
-					<li><a href=""><i class="fas fa-circle fa-xs"></i></a></li>
-					<li><a href=""><i class="far fa-circle fa-xs"></i></a></li>
-					<li><a href=""><i class="far fa-circle fa-xs"></i></a></li>
-					<li><a href=""><i class="fas fa-long-arrow-alt-right"></i></a></li>
-				</ul>
+			<div class="table">
+				<div class="table-cell">
+					<h3 class="text-center">other works</h3>
+					<ul class="inline-list text-center graphic-items">
+						<li><a href="assets/ecommetize-logo.jpg"><img src="assets/ecommetize-logo.jpg" class="zoom" title="eCommetize"></a></li>
+						<li><a href="assets/freeeup-blue-03-800.jpg"><img src="assets/freeeup-blue-03-800.jpg" class="zoom" title="FreeeUp"></a></li>
+						<li><a href="assets/bella-watermark.png"><img src="assets/bella-watermark.png" class="zoom" title="Bella Photography"></a></li>
+					</ul>
+				</div>
 			</div>
+			
 		</div>
-
 
 		<div id="about">
 			<div class="table">
 				<div class="table-cell cell-50">
-					<!-- <div class="img-wrapper m-b">
-						<img src="assets/placeholder.jpg">
-					</div> -->
 					<div class="m-b">
 						<h2>about</h2>
 						<p>Nicole Tavares Carvalho is a web designer and developer. She enjoys working on development projects for both desktop and mobile. Her approach to design is focused on clear and effective communication.</p>
@@ -120,6 +162,7 @@
 								<li>KendoUI</li>
 								<li>Git</li>
 								<li>Grunt</li>
+								<li>Gulp</li>
 								<li>NPM</li>
 								<li>TFS</li>
 							</ul>
@@ -132,7 +175,7 @@
 							<p>Web Design and Development, B.S. Aug 2012 - Aug 2015</p>
 						</div>
 					</div>
-					<a href="assets/Nicole-Carvalho-Resume.pdf" target="_blank">
+					<a href="assets/carvalho_nicole_resume.pdf" target="_blank">
 						view resume <i class="fas fa-external-link-alt fa-xs"></i>
 					</a>
 				</div>
@@ -155,5 +198,20 @@
 			</div>
 		</div>
 	</footer>
+
+	<!-- js -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript" src="js/main.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".work-carousel").slick({
+				dots: true
+			});
+		});
+	</script>
+
 </body>
 </html>

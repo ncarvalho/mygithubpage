@@ -15,7 +15,8 @@ h1, h2 {
   font-weight: 400; }
 
 h2 {
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  line-height: 39px; }
 
 h3 {
   letter-spacing: 1px;
@@ -36,6 +37,9 @@ a {
 
 .m-b {
   margin-bottom: 40px; }
+
+.no-padding {
+  padding: 0 !important; }
 
 header {
   padding: 20px;
@@ -80,10 +84,11 @@ footer {
   .items-container .table {
     display: table;
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    padding: 0 50px; }
     .items-container .table .table-cell {
       display: table-cell;
-      padding: 20px;
+      padding: 20px 50px;
       vertical-align: middle; }
       .items-container .table .table-cell.cell-70 {
         width: 70%; }
@@ -96,7 +101,7 @@ footer {
       .items-container .table .table-cell.cell-30 {
         width: 30%; }
 
-.img-wrapper img {
+.img-wrapper img, .img-wrapper video {
   width: 100%; }
 
 .tech-items li {
@@ -108,6 +113,9 @@ footer {
   padding: 80px 0;
   margin-top: -80px; }
 
+#jumbotron .table-cell {
+  padding: 20% 100px; }
+
 .work-spinner ul > li > a {
   padding: 10px;
   display: block; }
@@ -118,5 +126,65 @@ footer {
   .quote .quoted-by {
     font-weight: 700;
     display: block; }
+
+.slider-container {
+  padding: 0 40px; }
+
+.slick-prev {
+  left: 0px; }
+
+.slick-next {
+  right: 0; }
+
+.slick-prev:before, .slick-next:before, .slick-dots li.slick-active button:before, .slick-dots li button:before {
+  color: #b76a33; }
+
+.slick-dots li button:before {
+  font-size: 10px; }
+
+.slick-slide {
+  outline-color: #ffffff; }
+
+.graphic-items li {
+  width: 19%;
+  padding: 20px; }
+  .graphic-items li a {
+    display: block;
+    opacity: 0.75;
+    transition: opacity 0.5s; }
+    .graphic-items li a:hover {
+      opacity: 1; }
+  .graphic-items li img {
+    width: 100%; }
+
+.zoom {
+  cursor: zoom-in; }
+
+@media(max-width: 900px) {
+  #jumbotron .table-cell {
+    padding: 20% 60px; }
+
+  .items-container .table .table-cell {
+    display: block;
+    width: 100% !important; }
+
+  .graphic-items li {
+    width: 33%; } }
+@media(max-width: 570px) {
+  #jumbotron .table-cell {
+    padding: 20% 30px; }
+
+  .items-container .table {
+    padding: 0 30px; }
+
+  .items-container .table .table-cell {
+    padding: 20px 30px; }
+
+  .graphic-items li {
+    width: 70%;
+    padding: 30px 0; }
+
+  .slider-container {
+    padding: 0 30px; } }
 
 /*# sourceMappingURL=v2.css.map */
