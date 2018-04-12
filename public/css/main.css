@@ -1,471 +1,424 @@
-body {
-  font-family: "Raleway", sans-serif;
-  font-size: 13px;
-  font-weight: 300;
-  color: #212121;
-  position: relative; }
+html {
+  height: 100%; }
 
-h1 {
-  font-size: 36px;
-  margin: 0 0 10px 0; }
-  h1 a {
-    color: #000000; }
-    h1 a:hover {
-      color: #000000; }
+body {
+  position: relative;
+  background: #ffffff;
+  color: #333;
+  font-family: "Lato", sans-serif;
+  margin: 79px 0 60px 0; }
+
+h1, h2 {
+  font-family: "Prata", serif;
+  letter-spacing: 1px;
+  margin: 0;
+  font-weight: 400; }
 
 h2 {
-  font-size: 22px;
-  font-weight: 300;
-  margin: 0; }
+  margin-bottom: 10px;
+  line-height: 39px; }
 
 h3 {
-  font-size: 18px; }
+  letter-spacing: 1px;
+  font-size: 20px;
+  margin-bottom: 15px; }
 
 h4 {
   font-size: 16px;
-  color: #7cadc1;
-  margin-top: 15px; }
+  margin: 0 0 5px 0; }
 
-p {
-  font-size: 16px;
-  vertical-align: middle; }
-
-a {
-  color: #587e8e; }
-  a:hover {
-    text-decoration: none;
-    color: #295D73;
-    transition: color 0.2s;
-    cursor: pointer; }
-  a:focus {
-    color: #295D73; }
-
-.btn.btn-blue {
-  border-radius: 0;
-  border: 1px solid #6796A9;
-  color: #6796A9;
-  transition: 0.6s all;
-  font-weight: bold;
-  font-size: 14px; }
-  .btn.btn-blue:hover {
-    background: #6796A9;
-    color: #ffffff; }
-
-#logo-img {
-  width: 60px; }
-
-.m-t-sm {
-  margin-top: 10px; }
-
-.m-b {
-  margin-bottom: 30px; }
-
-.clean-list {
-  list-style-type: none;
-  padding: 5px 0; }
-
-.inline-list li {
-  display: inline-block;
-  margin: 0 10px 0 0; }
-
-.sub-list {
-  color: #ffffff;
-  padding-left: 20px;
-  padding-top: 10px;
+h5 {
   font-size: 12px; }
 
-div#details {
-  border-radius: 2px;
-  padding: 0 40px;
-  display: block;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 100%;
-  overflow: hidden; }
-  div#details #title {
-    margin: 20px 15px 15px 0;
-    overflow: hidden; }
-    div#details #title h1 {
-      margin-right: 10px; }
-    div#details #title h2 {
-      margin-top: 23px;
-      font-size: 16px; }
-  div#details ul#extras {
-    font-size: 16px;
-    float: right;
-    margin: 36px 0; }
-    div#details ul#extras a {
-      letter-spacing: 1px; }
-    div#details ul#extras a.active {
-      font-weight: bold;
-      color: #295D73;
-      border-bottom: 1px solid #295D73; }
-  div#details ul.social-icons {
-    overflow: auto; }
-    div#details ul.social-icons li {
-      display: inline-block;
-      padding: 0 10px 0 3px;
-      float: left; }
+a {
+  color: #b76a33; }
+  a:hover, a:focus {
+    color: #a35e2d; }
 
-div#content {
-  background-color: #4c1026;
-  color: #d0d1d4;
-  overflow: hidden;
-  width: 100%;
-  padding: 40px 40px 0; }
-  div#content .item {
-    margin-bottom: 60px;
-    padding: 0; }
-  div#content #resume-text {
-    font-size: 16px; }
-    div#content #resume-text h3 {
-      color: #ffffff; }
-      div#content #resume-text h3 i {
-        opacity: 0.4; }
-      div#content #resume-text h3 a {
-        color: #ffffff; }
-        div#content #resume-text h3 a:focus {
-          text-decoration: none; }
-        div#content #resume-text h3 a:nth-child(1) {
-          border-bottom: 1px solid #ffffff; }
-    div#content #resume-text ul.clean-list {
-      margin-bottom: 20px; }
-      div#content #resume-text ul.clean-list li:nth-child(1) {
-        color: #ffffff; }
-      div#content #resume-text ul.clean-list li:nth-child(2) {
-        font-size: 13px; }
-    div#content #resume-text ul#resume-skills {
-      list-style-type: none;
-      padding: 0; }
-      div#content #resume-text ul#resume-skills li {
-        background-color: rgba(117, 117, 117, 0.4);
-        display: inline-block;
-        color: #ffffff;
-        padding: 5px 10px;
-        font-size: 12px;
-        margin-bottom: 5px; }
-  div#content a {
-    color: #6796A9; }
-    div#content a:hover {
-      color: #ffffff; }
-    div#content a img {
-      width: 100%;
-      box-shadow: 0px 3px 13px 0px #2e2e2e; }
-  div#content #swimsuits, div#content .logos {
-    width: 100%;
-    margin: 0 auto; }
-    div#content #swimsuits a, div#content .logos a {
-      width: 50%;
-      float: left;
-      padding: 10px; }
-  div#content video {
-    width: 100%;
-    display: block;
-    background-color: #fff;
-    box-shadow: 0px 3px 13px 0px #2e2e2e; }
-  div#content p {
-    padding: 5px 0; }
-    div#content p strong {
-      color: #ffffff; }
+.m-b {
+  margin-bottom: 40px; }
 
-span.glyphicon {
-  margin: 10px 0;
-  color: #ffffff;
-  font-size: 13px;
-  background-color: rgba(117, 117, 117, 0.4);
-  padding: 10px; }
+.no-padding {
+  padding: 0 !important; }
+
+header {
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #ffffff;
+  z-index: 1; }
 
 footer {
-  font-size: 13px;
-  color: #353535;
-  padding: 20px 30px; }
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #ffffff;
+  z-index: 1; }
   footer p {
     margin: 0; }
-  footer ul.social-icons {
-    padding: 0;
-    margin: 0; }
-    footer ul.social-icons li {
-      display: inline-block;
-      padding: 0 10px; }
 
-@media(max-width: 767px) {
-  #title h2 {
-    display: none; } }
-@media(max-width: 430px) {
-  div#details {
-    padding: 0 20px; }
+.navi {
+  text-align: right; }
+  .navi li > a {
+    display: block;
+    padding: 10px 15px; }
 
-  div#content {
-    padding: 40px 20px 0; } }
+.inline-list {
+  padding: 0;
+  margin: 0; }
+  .inline-list li {
+    display: inline-block; }
+
+.social-links {
+  text-align: right; }
+  .social-links li a {
+    padding: 10px;
+    color: #333; }
+
+.items-container {
+  height: 100%;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-delay: 0.3s; }
+  .items-container .table {
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding: 0 50px; }
+    .items-container .table .table-cell {
+      display: table-cell;
+      padding: 20px 50px;
+      vertical-align: middle; }
+      .items-container .table .table-cell.cell-70 {
+        width: 70%; }
+      .items-container .table .table-cell.cell-60 {
+        width: 60%; }
+      .items-container .table .table-cell.cell-50 {
+        width: 50%; }
+      .items-container .table .table-cell.cell-40 {
+        width: 40%; }
+      .items-container .table .table-cell.cell-30 {
+        width: 30%; }
+
+.img-wrapper img, .img-wrapper video {
+  width: 100%; }
+
+.tech-items li {
+  background: rgba(204, 198, 180, 0.2);
+  padding: 3px 8px;
+  margin: 0 5px 7px 0; }
+
+#work, #about, #jumbotron {
+  padding: 80px 0;
+  margin-top: -80px; }
+
+#jumbotron .table-cell {
+  padding: 20% 100px; }
+
+.work-spinner ul > li > a {
+  padding: 10px;
+  display: block; }
+
+.quote {
+  line-height: 25px;
+  font-weight: 300; }
+  .quote .quoted-by {
+    font-weight: 700;
+    display: block; }
+
+.slider-container {
+  padding: 0 40px; }
+
+.slick-prev {
+  left: 0px;
+  z-index: 1; }
+
+.slick-next {
+  right: 0;
+  z-index: 1; }
+
+.slick-prev:before, .slick-next:before, .slick-dots li.slick-active button:before, .slick-dots li button:before {
+  color: #b76a33; }
+
+.slick-dots li button:before {
+  font-size: 10px; }
+
+.slick-slide {
+  outline-color: #ffffff; }
+
+.graphic-items li {
+  width: 19%;
+  padding: 20px; }
+  .graphic-items li a {
+    display: block;
+    opacity: 0.75;
+    transition: opacity 0.5s; }
+    .graphic-items li a:hover {
+      opacity: 1; }
+  .graphic-items li img {
+    width: 100%; }
+
+.zoom {
+  cursor: zoom-in; }
+
+@media(max-width: 900px) {
+  #jumbotron .table-cell {
+    padding: 20% 60px; }
+
+  .items-container .table .table-cell {
+    display: block;
+    width: 100% !important; }
+
+  .graphic-items li {
+    width: 33%; } }
+@media(max-width: 570px) {
+  #jumbotron .table-cell {
+    padding: 20% 30px; }
+
+  .items-container .table {
+    padding: 0 30px; }
+
+  .items-container .table .table-cell {
+    padding: 20px 30px; }
+
+  .graphic-items li {
+    width: 70%;
+    padding: 30px 0; }
+
+  .slider-container {
+    padding: 0 30px; } }
 @media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-  #logo-img {
-    width: 100px; }
-
-  .header-left {
-    width: 33.33%; }
-
-  .header-right {
-    width: 66.66%; }
-
   h1 {
     font-size: 50px; }
 
   h2 {
-    font-size: 38px; }
+    font-size: 46px;
+    line-height: 55px; }
 
   h3 {
-    font-size: 32px; }
+    font-size: 40px; }
 
   h4 {
-    font-size: 50px; }
+    font-size: 30px; }
 
-  p {
-    font-size: 38px;
-    margin-bottom: 60px; }
+  h5 {
+    font-size: 25px; }
 
-  .sub-list {
-    font-size: 26px; }
+  a, p {
+    font-size: 35px; }
 
-  div#details ul#extras {
-    font-size: 40px; }
-    div#details ul#extras a.active {
-      border-bottom: 3px solid #295D73; }
+  .tech-items li {
+    font-size: 30px; }
 
-  #title h2 {
+  .navi {
     display: none; }
 
-  .item {
-    margin-bottom: 200px; }
+  .quote {
+    line-height: 55px; }
 
-  .item > .row > .col-xs-12 {
-    width: 100% !important; }
+  #jumbotron .table-cell {
+    padding: 20% 30px; }
 
-  div#content p {
-    padding: 5 0 50px 0;
-    border-left: 0; }
+  .items-container .table {
+    padding: 0 30px; }
 
-  div#content #resume-text {
-    font-size: 46px; }
-    div#content #resume-text h4:not(:nth-child(2)) {
-      margin-top: 80px; }
-    div#content #resume-text ul.clean-list li {
-      font-size: 46px; }
-    div#content #resume-text ul.clean-list li:nth-child(2) {
-      font-size: 36px; }
-    div#content #resume-text ul#resume-skills li {
-      font-size: 40px; }
+  .items-container .table .table-cell {
+    display: block;
+    width: 100% !important;
+    padding: 20px 30px; }
 
-  .btn.btn-blue {
-    width: 100%;
-    margin: 30px 0;
-    padding: 20px;
-    font-weight: bold;
-    font-size: 46px !important;
-    background-color: #6796A9;
-    color: #ffffff !important; }
+  .graphic-items li {
+    width: 70%;
+    padding: 30px 0; }
+
+  .slider-container {
+    padding: 0 30px; }
+
+  .m-b {
+    margin-bottom: 60px; }
+
+  header, footer {
+    position: relative; }
 
   footer {
-    font-size: 30px; } }
+    font-size: 35px; }
+
+  body {
+    margin: 0; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-  #logo-img {
-    width: 100px; }
-
-  .header-left {
-    width: 33.33%; }
-
-  .header-right {
-    width: 66.66%; }
-
   h1 {
     font-size: 50px; }
 
   h2 {
-    font-size: 38px; }
+    font-size: 46px;
+    line-height: 55px; }
 
   h3 {
-    font-size: 32px; }
-
-  h4 {
-    font-size: 50px; }
-
-  p {
-    font-size: 38px;
-    margin-bottom: 60px; }
-
-  .sub-list {
-    font-size: 26px; }
-
-  div#details ul#extras {
     font-size: 40px; }
 
-  #title h2 {
+  h4 {
+    font-size: 30px; }
+
+  h5 {
+    font-size: 25px; }
+
+  a, p {
+    font-size: 35px; }
+
+  .tech-items li {
+    font-size: 30px; }
+
+  .navi {
     display: none; }
 
-  .item {
-    margin-bottom: 200px; }
+  .quote {
+    line-height: 55px; }
 
-  .item > .row > .col-xs-12 {
-    width: 100% !important; }
+  #jumbotron .table-cell {
+    padding: 20% 30px; }
 
-  div#content p {
-    padding: 5 0 50px 0;
-    border-left: 0; }
+  .items-container .table {
+    padding: 0 30px; }
 
-  div#content #resume-text {
-    font-size: 46px; }
-    div#content #resume-text h4:not(:nth-child(2)) {
-      margin-top: 80px; }
-    div#content #resume-text ul.clean-list li {
-      font-size: 46px; }
-    div#content #resume-text ul.clean-list li:nth-child(2) {
-      font-size: 36px; }
-    div#content #resume-text ul#resume-skills li {
-      font-size: 40px; }
+  .items-container .table .table-cell {
+    display: block;
+    width: 100% !important;
+    padding: 20px 30px; }
 
-  .btn.btn-blue {
-    width: 100%;
-    margin: 30px 0;
-    padding: 20px;
-    font-weight: bold;
-    font-size: 46px !important;
-    background-color: #6796A9;
-    color: #ffffff !important; }
+  .graphic-items li {
+    width: 70%;
+    padding: 30px 0; }
+
+  .slider-container {
+    padding: 0 30px; }
+
+  .m-b {
+    margin-bottom: 60px; }
+
+  header, footer {
+    position: relative; }
 
   footer {
-    font-size: 30px; } }
+    font-size: 35px; }
+
+  body {
+    margin: 0; } }
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
-  #logo-img {
-    width: 100px; }
-
-  .header-left {
-    width: 33.33%; }
-
-  .header-right {
-    width: 66.66%; }
-
   h1 {
     font-size: 50px; }
 
   h2 {
-    font-size: 38px; }
+    font-size: 46px;
+    line-height: 55px; }
 
   h3 {
-    font-size: 32px; }
-
-  h4 {
-    font-size: 50px; }
-
-  p {
-    font-size: 38px;
-    margin-bottom: 60px; }
-
-  .sub-list {
-    font-size: 26px; }
-
-  div#details ul#extras {
     font-size: 40px; }
 
-  #title h2 {
+  h4 {
+    font-size: 30px; }
+
+  h5 {
+    font-size: 25px; }
+
+  a, p {
+    font-size: 35px; }
+
+  .tech-items li {
+    font-size: 30px; }
+
+  .navi {
     display: none; }
 
-  .item {
-    margin-bottom: 200px; }
+  .quote {
+    line-height: 55px; }
 
-  .item > .row > .col-xs-12 {
-    width: 100% !important; }
+  #jumbotron .table-cell {
+    padding: 20% 30px; }
 
-  div#content p {
-    padding: 5 0 50px 0;
-    border-left: 0; }
+  .items-container .table {
+    padding: 0 30px; }
 
-  div#content #resume-text {
-    font-size: 46px; }
-    div#content #resume-text h4:not(:nth-child(2)) {
-      margin-top: 80px; }
-    div#content #resume-text ul.clean-list li {
-      font-size: 46px; }
-    div#content #resume-text ul.clean-list li:nth-child(2) {
-      font-size: 36px; }
-    div#content #resume-text ul#resume-skills li {
-      font-size: 40px; }
+  .items-container .table .table-cell {
+    display: block;
+    width: 100% !important;
+    padding: 20px 30px; }
 
-  .btn.btn-blue {
-    width: 100%;
-    margin: 30px 0;
-    padding: 20px;
-    font-weight: bold;
-    font-size: 46px !important;
-    background-color: #6796A9;
-    color: #ffffff !important; }
+  .graphic-items li {
+    width: 70%;
+    padding: 30px 0; }
+
+  .slider-container {
+    padding: 0 30px; }
+
+  .m-b {
+    margin-bottom: 60px; }
+
+  header, footer {
+    position: relative; }
 
   footer {
-    font-size: 30px; } }
+    font-size: 35px; }
+
+  body {
+    margin: 0; } }
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
-  #logo-img {
-    width: 100px; }
-
-  .header-left {
-    width: 33.33%; }
-
-  .header-right {
-    width: 66.66%; }
-
   h1 {
     font-size: 50px; }
 
   h2 {
-    font-size: 38px; }
+    font-size: 46px;
+    line-height: 55px; }
 
   h3 {
-    font-size: 32px; }
-
-  h4 {
-    font-size: 50px; }
-
-  p {
-    font-size: 38px;
-    margin-bottom: 60px; }
-
-  .sub-list {
-    font-size: 26px; }
-
-  div#details ul#extras {
     font-size: 40px; }
 
-  #title h2 {
+  h4 {
+    font-size: 30px; }
+
+  h5 {
+    font-size: 25px; }
+
+  a, p {
+    font-size: 35px; }
+
+  .tech-items li {
+    font-size: 30px; }
+
+  .navi {
     display: none; }
 
-  .item {
-    margin-bottom: 200px; }
+  .quote {
+    line-height: 55px; }
 
-  .item > .row > .col-xs-12 {
-    width: 100% !important; }
+  #jumbotron .table-cell {
+    padding: 20% 30px; }
 
-  div#content p {
-    padding: 5 0 50px 0;
-    border-left: 0; }
+  .items-container .table {
+    padding: 0 30px; }
 
-  div#content #resume-text {
-    font-size: 46px; }
-    div#content #resume-text h4:not(:nth-child(2)) {
-      margin-top: 80px; }
-    div#content #resume-text ul.clean-list li {
-      font-size: 46px; }
-    div#content #resume-text ul.clean-list li:nth-child(2) {
-      font-size: 36px; }
-    div#content #resume-text ul#resume-skills li {
-      font-size: 40px; }
+  .items-container .table .table-cell {
+    display: block;
+    width: 100% !important;
+    padding: 20px 30px; }
 
-  .btn.btn-blue {
-    width: 100%;
-    margin: 30px 0;
-    padding: 20px;
-    font-weight: bold;
-    font-size: 46px !important;
-    background-color: #6796A9;
-    color: #ffffff !important; }
+  .graphic-items li {
+    width: 70%;
+    padding: 30px 0; }
+
+  .slider-container {
+    padding: 0 30px; }
+
+  .m-b {
+    margin-bottom: 60px; }
+
+  header, footer {
+    position: relative; }
 
   footer {
-    font-size: 30px; } }
+    font-size: 35px; }
+
+  body {
+    margin: 0; } }
 
 /*# sourceMappingURL=main.css.map */
