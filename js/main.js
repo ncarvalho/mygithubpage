@@ -22,9 +22,10 @@ $(document).ready(function(){
 	} // End if
   });
 
-
-  $(".work-carousel").slick({
-		dots: true,
-		mobileFirst: true
-	});
+	if(!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		$(".work-carousel").slick({
+			dots: true,
+			mobileFirst: true
+		});
+	}
 }); 
