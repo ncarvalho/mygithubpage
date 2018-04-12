@@ -21,12 +21,10 @@ $(document).ready(function(){
 	  });
 	} // End if
   });
-});
 
-$(function() {
-   // $(".fancybox").fancybox({
-   //    openEffect  : 'none',
-   //    closeEffect : 'none'
-   //  });    
-   
-});
+
+  $(".work-carousel").slick({
+		dots: true,
+		mobileFirst: true
+	});
+}); 
