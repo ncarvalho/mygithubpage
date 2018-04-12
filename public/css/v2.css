@@ -190,26 +190,29 @@ footer {
     padding: 0 30px; } }
 @media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   h1 {
-    font-size: 50px;
-    line-height: 39px; }
+    font-size: 50px; }
 
   h2 {
-    font-size: 46px; }
+    font-size: 46px;
+    line-height: 45px; }
 
   h3 {
-    font-size: 36px; }
+    font-size: 40px; }
 
   h4 {
-    font-size: 30px; }
+    font-size: 35px; }
 
   h5 {
-    font-size: 22px; }
+    font-size: 28px; }
 
   a, p {
-    font-size: 26px; }
+    font-size: 35px; }
 
   .navi {
     display: none; }
+
+  .quote {
+    line-height: 35px; }
 
   #jumbotron .table-cell {
     padding: 20% 30px; }
@@ -227,29 +230,35 @@ footer {
     padding: 30px 0; }
 
   .slider-container {
-    padding: 0 30px; } }
+    padding: 0 30px; }
+
+  .m-b {
+    margin-bottom: 60px; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
   h1 {
-    font-size: 50px;
-    line-height: 39px; }
+    font-size: 50px; }
 
   h2 {
-    font-size: 46px; }
+    font-size: 46px;
+    line-height: 45px; }
 
   h3 {
-    font-size: 36px; }
+    font-size: 40px; }
 
   h4 {
-    font-size: 30px; }
+    font-size: 35px; }
 
   h5 {
-    font-size: 22px; }
+    font-size: 28px; }
 
   a, p {
-    font-size: 26px; }
+    font-size: 35px; }
 
   .navi {
     display: none; }
+
+  .quote {
+    line-height: 35px; }
 
   #jumbotron .table-cell {
     padding: 20% 30px; }
@@ -267,29 +276,35 @@ footer {
     padding: 30px 0; }
 
   .slider-container {
-    padding: 0 30px; } }
+    padding: 0 30px; }
+
+  .m-b {
+    margin-bottom: 60px; } }
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
   h1 {
-    font-size: 50px;
-    line-height: 45px; }
+    font-size: 50px; }
 
   h2 {
-    font-size: 46px; }
+    font-size: 46px;
+    line-height: 45px; }
 
   h3 {
-    font-size: 36px; }
+    font-size: 40px; }
 
   h4 {
-    font-size: 30px; }
+    font-size: 35px; }
 
   h5 {
-    font-size: 22px; }
+    font-size: 28px; }
 
   a, p {
-    font-size: 26px; }
+    font-size: 35px; }
 
   .navi {
     display: none; }
+
+  .quote {
+    line-height: 35px; }
 
   #jumbotron .table-cell {
     padding: 20% 30px; }
@@ -307,29 +322,35 @@ footer {
     padding: 30px 0; }
 
   .slider-container {
-    padding: 0 30px; } }
+    padding: 0 30px; }
+
+  .m-b {
+    margin-bottom: 60px; } }
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
   h1 {
-    font-size: 50px;
-    line-height: 45px; }
+    font-size: 50px; }
 
   h2 {
-    font-size: 46px; }
+    font-size: 46px;
+    line-height: 45px; }
 
   h3 {
-    font-size: 36px; }
+    font-size: 40px; }
 
   h4 {
-    font-size: 30px; }
+    font-size: 35px; }
 
   h5 {
-    font-size: 22px; }
+    font-size: 28px; }
 
   a, p {
-    font-size: 26px; }
+    font-size: 35px; }
 
   .navi {
     display: none; }
+
+  .quote {
+    line-height: 35px; }
 
   #jumbotron .table-cell {
     padding: 20% 30px; }
@@ -347,6 +368,9 @@ footer {
     padding: 30px 0; }
 
   .slider-container {
-    padding: 0 30px; } }
+    padding: 0 30px; }
+
+  .m-b {
+    margin-bottom: 60px; } }
 
 /*# sourceMappingURL=v2.css.map */
